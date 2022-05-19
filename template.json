@@ -1,0 +1,50 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@testing-library/user-event": "^12.6.3",
+      "eslint-config-trybe-frontend": "^1.2.1",
+      "prop-types": "^15.8.1",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-redux": "8.0.1",
+      "react-scripts": "4.0.0",
+      "redux": "4.2.0",
+      "redux-devtools-extension": "2.13.9"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "test-coverage": "react-scripts test --coverage --watchAll=false"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "jest": {
+      "collectCoverageFrom": [
+        "**/*.{js,jsx}",
+        "!src/index.js",
+        "!src/store/index.js",
+        "!src/tests/*.js"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+}

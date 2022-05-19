@@ -1,0 +1,12 @@
+{
+  "name": "cra-template-trybe-react-redux",
+  "version": "1.0.0",
+  "description": "README.md (for npm)   template.json   package.json   template/     README.md (for projects created from this template)     gitignore     public/       index.html     src/       index.js (or index.tsx)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
